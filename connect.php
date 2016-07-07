@@ -4,6 +4,8 @@
  $DBpass = "";
  $DBname = "boysbandmuz";
 
+
+
  try{
 
   $dbh = new PDO("mysql:host=$DBhost;dbname=$DBname",$DBuser,$DBpass);
